@@ -1,0 +1,23 @@
+# Core RAG Framework
+llama-index>=0.11.0
+llama-index-core>=0.11.0
+
+# Vector Database (LanceDB)
+lancedb>=0.17.0
+llama-index-vector-stores-lancedb>=0.4.0
+
+# Embeddings & Data Loading
+llama-index-embeddings-huggingface>=0.4.0
+datasets>=3.0.0
+torch --index-url https://download.pytorch.org/whl/cpu
+
+# LLM Integrations
+llama-index-llms-huggingface-api>=0.2.0
+llama-index-llms-ollama>=0.4.0
+requests>=2.32.0
+
+# Performance & Utilities
+nest-asyncio>=1.6.0
+pandas>=2.0.0
+python-dotenv>=1.0.1
+tqdm>=4.66.0
